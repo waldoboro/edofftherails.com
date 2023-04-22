@@ -1,0 +1,247 @@
+.title {
+	font-family: 'Sigmar';
+	position: absolute;
+	margin: 15% 0% 5% 0%;
+    font-weight: bold;
+	width: 100%;
+	left: 0%;
+	cursor: none;
+	font-size: 13vw;
+	color: #000000;
+	text-shadow: 0 0 20px #ffffff;
+	transition: text-shadow 1.5s, color 1s;
+	text-decoration: none;
+    text-align:center;
+  }
+
+  .title:hover {
+	color: #ffffff;
+	text-shadow: 0 0 20px #000000;
+}
+
+.btn {
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-family: 'Press Start 2P';
+  font-weight: bold;
+  padding: 3.5% 100% 3% 8%;
+  font-size: 1.3em;
+  cursor: crosshair;
+  opacity: 90%;
+  margin: 0% 2% 0% 8%;
+  border-radius: 0px;
+  border-width: 5px;
+  border-bottom-style: solid;
+}
+
+.xx {
+text-align: center;
+  align-content: center;
+  border-radius: 0px;
+  border-width: 0px;
+  border: solid;
+}
+
+.ww {
+    margin: 40% 0 0 0;
+    overflow: hidden;
+}
+
+.imgu {
+  margin: 2%;
+  opacity: 0.5;
+  width: 35%;
+  height: auto;
+  position: fixed;
+  right: 0px;
+  bottom: 0%;
+  z-index: -1;
+}
+
+/* LINK FORMATTING */
+
+.al, .al:any-link {
+    background-color: #babdbf; 
+    color: black; 
+    text-decoration: none;
+    transition: background-color .7s, color .7s;
+    border-color: #0A7373;
+} 
+.al:hover {background: #0A7373; color: white; border-color: #000000;}
+
+.tr, .tr:any-link {
+    background-color: #babdbf; 
+    color: black; 
+    text-decoration: none;
+    transition: background-color .7s, color .7s, border-color .7s;
+    border-color: #b7bf99;
+} 
+.tr:hover {background: #b7bf99; border-color: #000000;}
+
+.ar, .ar:any-link {
+    background-color: #babdbf; 
+    color: black; 
+    text-decoration: none;
+    transition: background-color .7s, color .7s, border-color .7s;
+    border-color: #EDAA25;
+} 
+.ar:hover {background: #EDAA25; border-color: #000000;}
+
+.ab, .ab:any-link {
+    background-color: #babdbf; 
+    color: black; 
+    text-decoration: none;
+    transition: background-color .7s, color .7s, border-color .7s;
+    border-color: #C43302;
+}
+.ab:hover {background: #C43302; color: white; border-color: #000000;}
+
+/* END LINK FORMATTING */
+
+@media screen and (min-width: 600px) {
+.title {
+    font-family: 'Sigmar';
+	position: absolute;
+	margin: 5% 0% 5%;
+	width: 100%;
+	left: 0%;
+	cursor: none;
+	font-size: 10vw;
+	color: #000000;
+	text-shadow: 0 0 20px #ffffff;
+	transition: text-shadow 1.5s, color 1s;
+	text-decoration: none;
+    text-align:center;
+}
+.btn {
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-family: 'Press Start 2P';
+  font-weight: bold;
+  padding: 1% 150% 1% 8%;
+  font-size: 1.3em;
+  cursor: crosshair;
+  opacity: 90%;
+  margin: 0% 0% 0% 11%;
+}
+.imgu {
+  margin: 2%;
+  opacity: 0.5;
+  width: 10%;
+  height: auto;
+  position: fixed;
+  right: 0px;
+  bottom: 0%;
+  z-index: -1;
+}
+.ww {
+    margin: 17% 0 0 0;
+    overflow: hidden;
+}
+}
+
+.bkg{
+	background-color: #ecede6;
+	background-image: url("tiles.png");
+	background-size: 30vw auto;
+background-repeat: repeat;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #010221;
+}
+
+.topnav a {
+  font-family: 'DotGothic16';
+  font-weight: 500;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+hr.line {
+  border: 1px solid #0A7373;
+}
+
+.prg {
+  border: solid;
+  background-color: white;
+  box-shadow: 10px 10px  #0A7373;
+  color: #010221;
+  font-family: 'Abhaya Libre';
+  text-align: center;
+  align-content: center;
+  padding: 3% 5%;
+  font-size: 1.2em;
+  border-radius: 12px;
+  margin: 10% 3% ;
+}
+
+@media screen and (min-width: 600px) {
+	.prg {
+        margin: 8% 10%;
+        font-size: 1.5em;
+    }
+}
+
+.link {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 7% 0;
+  width: 95%;
+}
+
+@media screen and (min-width: 600px) {
+	.link {
+        font-size: 1.2em;
+        margin: 2.5% 0;
+    }
+}
+
+.topnav a:hover {
+  background-color: #EDAA25;
+  color: black;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #010221;
+  color: #ffffff;
+}
+
+.footer {
+  font-family: 'DotGothic16';
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-shadow: 2px 2px 10px #000000;
+  color: white;
+  text-align: center;
+}
+
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{font-family:"Arial",sans-serif;}
+.MsoPapDefault
+	{line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
